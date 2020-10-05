@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43714cc0cef7e346a77cdd55f941d49, type: 3}
+  m_Name: GrassTileData
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 11400000, guid: 6bc3d7fdf2793d7488a2afb1136a712e, type: 2}
+  - {fileID: 11400000, guid: d1db571673ef89a4ea4d40db490f9e9e, type: 2}
+  walkingSpeed: 5
+  poisonous: 0
+  canBurn: 1
+  spreadChance: 1
+  spreadIntervall: 0.1
+  burnTime: 8
